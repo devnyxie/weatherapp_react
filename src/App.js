@@ -6,9 +6,9 @@ import MainSearch from "./components/MainSearch";
 function App() {
   return (
     <>
-      <Container fluid id="fullsize">
-        <Container className=" shadow-lg p-3 mb-5 bg-body rounded" id="main">
-          <div className="text-center mt-2">
+      <Container fluid className="d-flex justify-content-center" id="fullsize">
+        <Container className="shadow-lg p-3 mb-5 bg-body rounded" id="main">
+          <div className="text-center mt-2 ">
             <Container>
               <Row>
                 <Col xs={4}>
